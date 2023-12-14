@@ -1,0 +1,38 @@
+/* src/components/Calculator.css */
+.calculator {
+  width: 100%;
+  max-width: 300px; /* Set maximum width */
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator input {
+  width: calc(100% - 20px); /* Adjusted width for padding */
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.calculator button {
+  width: calc(25% - 10px); /* Adjusted width for margin */
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s;
+}
+
+.calculator .result {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
